@@ -1,0 +1,73 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.header
+{   width: 100vw;
+    height: 75vh;
+    background-image: url(/images/logo.jpeg);
+    background-size: 100vw 75vh;
+    background-repeat: no-repeat;
+}
+
+#header-navbar ul li
+{
+    display: inline-block;
+    padding: 25px;
+    color: white;
+    transition: border 0.2s;
+}
+#header-navbar ul li:hover
+{
+    border-bottom: 2px solid gold;
+}
+
+#header-navbar
+{
+    text-align: end;
+    margin-right: 5%;
+}
+
+#signature
+{
+    width: 290px;
+    height: 70px;
+    position: absolute;
+    left:100px;
+    top: 35px;
+    border: 2px solid gold;
+    border-radius: 13px;
+}
+
+#About-CEO
+{
+    display:inline-block;
+    width: 400px;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 40vw;
+    text-align: center;
+    transition: border 0.2s;
+}
+
+#About-CEO:hover
+{
+    border-bottom: 5px solid black;
+}
+
+#contacts ul li
+{
+    display: inline-block;
+    padding: 10px 25px 10px;
+    margin-right: 10px;
+}
+#contacts ul
+{
+    text-align: end;
+    font-size: 14px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 5rem;
+}
